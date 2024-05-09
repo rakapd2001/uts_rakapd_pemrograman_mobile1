@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tekshome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+    android:gravity="center"
+    android:padding="20dp"
+    android:text="HOME"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tombolsignout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundedcorner"
+        android:elevation="2dp"
+    android:paddingStart="40dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="40dp"
+    android:paddingBottom="10dp"
+    android:text="SIGN OUT"
+    android:textColor="@color/white"
+    android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Raka Puteraku Dermawan"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NPM : 22552011154"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas : TIF222K"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp" />
+
+</LinearLayout>
