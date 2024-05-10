@@ -1,6 +1,7 @@
 package com.example.uts;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -48,6 +49,8 @@ public class Register extends AppCompatActivity {
                 String usernameText = username.getText().toString();
                 String passwordText = password.getText().toString();
 
+                Log.d("RegisterActivity",
+                        "Tombol register diklik. Informasi pengguna: " + usernameText + " " + passwordText);
                 String message = "Username: " + usernameText + "\nPassword: " + passwordText;
                 Toast.makeText(Register.this, message, Toast.LENGTH_LONG).show();
             }
